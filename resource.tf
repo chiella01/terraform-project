@@ -4,3 +4,4 @@ resource "aws_instance" "prod" {
     tags = {
       "Name" = "webserver"
     }
+}
